@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.dark-container {
+  height: 130px;
+  width: 270px;
+  background-color: #000000;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark-heading {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.dark-button {
+  color: #000000;
+  font-size: 12px;
+  background-color: #ffffff;
+  border: 0px;
+  height: 35px;
+  width: 90px;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.light-container {
+  height: 130px;
+  width: 270px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.light-heading {
+  font-size: 24px;
+  color: #000000;
+}
+
+.light-button {
+  color: #000000;
+  font-size: 12px;
+  background-color: #ffffff;
+  border: 0px;
+  height: 35px;
+  width: 90px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
